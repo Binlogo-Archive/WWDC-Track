@@ -16,6 +16,7 @@
 示例代码： [Implementing Modern Collection Views](./ImplementingModernCollectionViews)
 
 - [Advances in UICollectionView](https://developer.apple.com/videos/play/wwdc2020/10097/)
+- [Lists in UICollectionView](https://developer.apple.com/videos/play/wwdc2020/10026/)
 
 --------------------------------------------------------------------------------
 
