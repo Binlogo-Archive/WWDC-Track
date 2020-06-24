@@ -40,6 +40,11 @@
 
 - [The Details of UI Typography]()
 
+## Frameworks & Swfit Packages
+
+- [Distribute binary frameworks as Swift packages](https://developer.apple.com/videos/play/wwdc2020/10147/)
+- [Swift packages: Resources and localization](https://developer.apple.com/videos/play/wwdc2020/10169/)
+
 --------------------------------------------------------------------------------
 
 All rights reserved by apple.com
