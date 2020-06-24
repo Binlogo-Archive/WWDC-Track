@@ -18,7 +18,9 @@
 - [Advances in UICollectionView](https://developer.apple.com/videos/play/wwdc2020/10097/)
 - [Lists in UICollectionView](https://developer.apple.com/videos/play/wwdc2020/10026/)
 - [Modern cell configuration](https://developer.apple.com/videos/play/wwdc2020/10027/)
+- [Advances in diffable data sources](https://developer.apple.com/videos/play/wwdc2020/10045/)
 
 --------------------------------------------------------------------------------
 
 All rights reserved by apple.com
+
