@@ -1,4 +1,4 @@
-# [WWDC20](https://developer.apple.com/wwdc20/sessions/) 观影记录
+# WWDC20 观影记录
 
 > 悦过留痕。
 
@@ -25,11 +25,19 @@
 示例代码：[Creating and Updating Complications](./CreatingAndUpdatingComplications)
 
 - [What's new in SwiftUI](https://developer.apple.com/videos/play/wwdc2020/10041/)
+
+  [![What's new in SwiftUI](./MindMaps/What'snewinSwiftUI.png)](https://share.mubu.com/doc/4dFaRSVP_ho)
+
 - [App Essentials in SwiftUI]()
+
 - [Stacks, Grids, and Outlines in SwiftUI]()
+
 - [Build complications in SwiftUI](https://developer.apple.com/videos/play/wwdc2020/10048/)
+
 - [Build Document-Based Apps in SwiftUI]()
+
 - [Build SwiftUI Views for Widgets]()
+
 - [Widgets Code-Along: Part 1-3]()
 
 ## Swift
