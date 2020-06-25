@@ -33,6 +33,11 @@
 
 - [App Essentials in SwiftUI](https://developer.apple.com/wwdc20/10037)
 
+  <details><summary>点击展开思维导图</summary>
+        <a href="https://share.mubu.com/doc/7R3LEB4eUZo">
+    <img src="./MindMaps/AppEssentialsinSwiftUI.png" alt="App Essentials in SwiftUI">
+  </a></details>
+
 - [Stacks, Grids, and Outlines in SwiftUI]()
 
 - [Build complications in SwiftUI](https://developer.apple.com/videos/play/wwdc2020/10048/)
