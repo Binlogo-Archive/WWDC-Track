@@ -26,9 +26,12 @@
 
 - [What's new in SwiftUI](https://developer.apple.com/videos/play/wwdc2020/10041/)
 
-  [![What's new in SwiftUI](./MindMaps/What'snewinSwiftUI.png)](https://share.mubu.com/doc/4dFaRSVP_ho)
+  <details><summary>点击展开思维导图</summary>
+    <a href="https://share.mubu.com/doc/4dFaRSVP_ho">
+    <img src="./MindMaps/What'snewinSwiftUI.png" alt="What's new in SwiftUI">
+  </a></details>
 
-- [App Essentials in SwiftUI]()
+- [App Essentials in SwiftUI](https://developer.apple.com/wwdc20/10037)
 
 - [Stacks, Grids, and Outlines in SwiftUI]()
 
