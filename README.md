@@ -47,9 +47,17 @@
 
 示例代码： [Fruta: Building a Feature-Rich App with SwiftUI](./FrutaBuildingAFeatureRichAppWithSwiftUI)
 
-- [Configure and link your app clips](https://developer.apple.com/videos/play/wwdc2020/10146/)
-- [Design great app clips](https://developer.apple.com/videos/play/wwdc2020/10172)
 - [Explore app clips](https://developer.apple.com/videos/play/wwdc2020/10174)
+
+  <details><summary>点击展开思维导图</summary>
+        <a href="https://share.mubu.com/doc/7FTS-wuvaio">
+    <img src="./MindMaps/ExploreAppClips.png" alt="Explore app clips">
+  </a></details>
+
+- [Configure and link your app clips](https://developer.apple.com/videos/play/wwdc2020/10146/)
+
+- [Design great app clips](https://developer.apple.com/videos/play/wwdc2020/10172)
+
 - [Streamline your app clip](https://developer.apple.com/videos/play/wwdc2020/10120)
 
 ## UICollectionView
