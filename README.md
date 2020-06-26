@@ -26,7 +26,14 @@
     <img src="./MindMaps/AppEssentialsinSwiftUI.png" alt="App Essentials in SwiftUI">
   </a></details>
 
-- [Stacks, Grids, and Outlines in SwiftUI]()
+- [Stacks, Grids, and Outlines in SwiftUI](https://wwdc.io/share/wwdc20/10031)
+
+  <details><summary>点击展开思维导图</summary>
+        <a href="https://share.mubu.com/doc/3PiEJlsmWao">
+    <img src="./MindMaps/StacksGridsandOutlinesinSwiftUI.png" alt="Stacks, Grids, and Outlines in SwiftUI">
+  </a></details>
+
+- [Data Essentials in SwiftUI](https://wwdc.io/share/wwdc20/10040)
 
 - [Build complications in SwiftUI](https://developer.apple.com/videos/play/wwdc2020/10048/)
 
