@@ -60,6 +60,8 @@
 
 - [Streamline your app clip](https://developer.apple.com/videos/play/wwdc2020/10120)
 
+- [Create app clips for other businesses](https://wwdc.io/share/wwdc20/10118)
+
 ## UICollectionView
 
 示例代码： [Implementing Modern Collection Views](./ImplementingModernCollectionViews)
