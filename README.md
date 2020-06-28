@@ -62,6 +62,11 @@
 
 - [Create app clips for other businesses](https://wwdc.io/share/wwdc20/10118)
 
+  <details><summary>点击展开思维导图</summary>
+          <a href="https://share.mubu.com/doc/6gmq5SaGQIo">
+    <img src="./MindMaps/CreateAppClipsforOtherBusinesses.png" alt="Create app clips for other businesses">
+  </a></details>
+
 ## UICollectionView
 
 示例代码： [Implementing Modern Collection Views](./ImplementingModernCollectionViews)
