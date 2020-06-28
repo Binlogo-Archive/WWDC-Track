@@ -4,6 +4,15 @@
 
 > 悦过留痕。
 
+## Swift
+
+- [What's New in Swift](https://wwdc.io/share/wwdc20/10170)
+
+  <details><summary>点击展开思维导图</summary>
+          <a href="https://share.mubu.com/doc/41BTbnA2hAo#mindmap">
+    <img src="./MindMaps/What'sNewinSwift.png" alt="What's New in Swift">
+  </a></details>
+
 ## SwiftUI
 
 示例代码：[Creating and Updating Complications](./CreatingAndUpdatingComplications)
@@ -75,10 +84,6 @@
 - [Lists in UICollectionView](https://developer.apple.com/videos/play/wwdc2020/10026/)
 - [Modern cell configuration](https://developer.apple.com/videos/play/wwdc2020/10027/)
 - [Advances in diffable data sources](https://developer.apple.com/videos/play/wwdc2020/10045/)
-
-## Swift
-
-- [What's New in Swift]()
 
 ## UI Typography
 
