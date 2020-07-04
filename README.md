@@ -121,6 +121,13 @@
     <img src="./MindMaps/Designforintelligence_Apps_evolved.png" alt="Design for intelligence: Apps, evolved">
   </a></details>
 
+- [Design for intelligence: Discover new opportunities](https://wwdc.io/share/wwdc20/10088)
+
+  <details><summary>点击展开思维导图</summary>
+            <a href="https://share.mubu.com/doc/3mhirAakAkE">
+    <img src="./MindMaps/Designforintelligence_Discovernewopportunities.png" alt="Design for intelligence: Discover new opportunities">
+  </a></details>
+
 --------------------------------------------------------------------------------
 
 All rights reserved by apple.com
