@@ -103,6 +103,15 @@
     <img src="./MindMaps/BecomeaSimulatorexpert.jpg" alt="Become a Simulator expert">
   </a></details>
 
+## OS
+
+- [Explore the new system architecture of Apple Silicon Macs](https://wwdc.io/share/wwdc20/10686)
+
+  <details><summary>点击展开思维导图</summary>
+          <a href="https://share.mubu.com/doc/1X7OxNkedYE">
+    <img src="./MindMaps/ExplorethenewsystemarchitectureofAppleSiliconMacs.png" alt="Explore the new system architecture of Apple Silicon Macs">
+  </a></details>
+
 --------------------------------------------------------------------------------
 
 All rights reserved by apple.com
