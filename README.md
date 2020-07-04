@@ -112,6 +112,15 @@
     <img src="./MindMaps/ExplorethenewsystemarchitectureofAppleSiliconMacs.png" alt="Explore the new system architecture of Apple Silicon Macs">
   </a></details>
 
+## Design
+
+- [Design for intelligence: Apps, evolved](https://wwdc.io/share/wwdc20/10086)
+
+  <details><summary>点击展开思维导图</summary>
+            <a href="https://share.mubu.com/doc/7OSEi8Pc4QE">
+    <img src="./MindMaps/Designforintelligence_Apps_evolved.png" alt="Design for intelligence: Apps, evolved">
+  </a></details>
+
 --------------------------------------------------------------------------------
 
 All rights reserved by apple.com
