@@ -94,6 +94,15 @@
 - [Distribute binary frameworks as Swift packages](https://developer.apple.com/videos/play/wwdc2020/10147/)
 - [Swift packages: Resources and localization](https://developer.apple.com/videos/play/wwdc2020/10169/)
 
+## Xcode & Simulator & Tools
+
+- [Become a Simulator expert](https://wwdc.io/share/wwdc20/10647)
+
+  <details><summary>点击展开思维导图</summary>
+          <a href="https://share.mubu.com/doc/2FyUzURwsYE">
+    <img src="./MindMaps/BecomeaSimulatorexpert.jpg" alt="Become a Simulator expert">
+  </a></details>
+
 --------------------------------------------------------------------------------
 
 All rights reserved by apple.com
