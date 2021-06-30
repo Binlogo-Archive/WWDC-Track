@@ -133,7 +133,9 @@ class CoffeeData: ObservableObject {
         currentDrinks = drinks
         
         // Save drink information to HealthKit.
-        healthKitController.save(drink: drink)
+        async {
+            await healthKitController.save(drink: drink)
+        }
     }
     
     // MARK: - Private Methods
