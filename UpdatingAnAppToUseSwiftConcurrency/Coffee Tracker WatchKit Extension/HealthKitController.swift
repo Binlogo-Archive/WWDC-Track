@@ -23,7 +23,7 @@ private let types: Set<HKSampleType> = [caffeineType]
 // Milligram units.
 private let miligrams = HKUnit.gramUnit(with: .milli)
 
-class HealthKitController {
+actor HealthKitController {
     
     let logger = Logger(subsystem: "com.example.apple-samplecode.Coffee-Tracker.watchkitapp.watchkitextension.HealthKitController",
                         category: "HealthKit")
@@ -83,7 +83,7 @@ class HealthKitController {
     
     // Request authorization to read and save the required data types.
     @available(*, deprecated, message: "Prefer async alternative instead")
-    public func requestAuthorization(completionHandler: @escaping (Bool) -> Void ) {
+    nonisolated public func requestAuthorization(completionHandler: @escaping (Bool) -> Void ) {
         async {
             let result = await requestAuthorization()
             completionHandler(result)
@@ -107,7 +107,7 @@ class HealthKitController {
     
     // Reads data from the HealthKit store.
     @available(*, deprecated, message: "Prefer async alternative instead")
-    public func loadNewDataFromHealthKit( completionHandler: @escaping (Bool) -> Void = { _ in }) {
+    nonisolated public func loadNewDataFromHealthKit( completionHandler: @escaping (Bool) -> Void = { _ in }) {
         async {
             let result = await loadNewDataFromHealthKit()
             completionHandler(result)
@@ -142,10 +142,7 @@ class HealthKitController {
             let deletedDrinks = self.drinksToDelete(from: deletedSamples ?? [])
             
             // Update the data on the main queue.
-            await MainActor.run {
-                // Update the model.
-                self.updateModel(newDrinks: newDrinks, deletedDrinks: deletedDrinks)
-            }
+            await model?.updateModel(newDrinks: newDrinks, deletedDrinks: deletedDrinks)
             return true
         } catch {
             self.logger.error("An error occurred while querying for samples: \(error.localizedDescription)")
@@ -249,27 +246,4 @@ class HealthKitController {
         return Set(uuidsToDelete)
     }
     
-    // Update the model.
-    private func updateModel(newDrinks: [Drink], deletedDrinks: Set<UUID>) {
-        assert(Thread.main == Thread.current, "Must be run on the main queue because it accesses currentDrinks.")
-        
-        guard !newDrinks.isEmpty && !deletedDrinks.isEmpty else {
-            logger.debug("No drinks to add or delete from HealthKit.")
-            return
-        }
-        
-        // Get a copy of the current drink data.
-        guard let oldDrinks = model?.currentDrinks else { return }
-        
-        // Remove the deleted drinks.
-        var drinks = oldDrinks.filter { deletedDrinks.contains($0.uuid) }
-        
-        // Add the new drinks.
-        drinks += newDrinks
-        
-        // Sort the array by date.
-        drinks.sort { $0.date < $1.date }
-        
-        model?.currentDrinks = drinks
-    }
 }

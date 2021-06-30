@@ -45,6 +45,30 @@ class CoffeeData: ObservableObject {
     // Use this value to determine whether you have changes that can be saved to disk.
     private var savedValue: [Drink] = []
     
+    // Update the model.
+    @MainActor
+    public func updateModel(newDrinks: [Drink], deletedDrinks: Set<UUID>) {
+        
+        guard !newDrinks.isEmpty && !deletedDrinks.isEmpty else {
+            logger.debug("No drinks to add or delete from HealthKit.")
+            return
+        }
+        
+        // Get a copy of the current drink data.
+        let oldDrinks = currentDrinks
+        
+        // Remove the deleted drinks.
+        var drinks = oldDrinks.filter { deletedDrinks.contains($0.uuid) }
+        
+        // Add the new drinks.
+        drinks += newDrinks
+        
+        // Sort the array by date.
+        drinks.sort { $0.date < $1.date }
+        
+        currentDrinks = drinks
+    }
+    
     // The current level of caffeine in milligrams.
     // This property is calculated based on the currentDrinks array.
     public var currentMGCaffeine: Double {
