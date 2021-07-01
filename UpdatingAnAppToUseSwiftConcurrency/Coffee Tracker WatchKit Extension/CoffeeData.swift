@@ -97,6 +97,7 @@ private actor CoffeeDataStore {
 }
 
 // The data model for the Coffee Tracker app.
+@MainActor
 class CoffeeData: ObservableObject {
     
     let logger = Logger(subsystem: "com.example.apple-samplecode.Coffee-Tracker.watchkitapp.watchkitextension.CoffeeData", category: "Model")

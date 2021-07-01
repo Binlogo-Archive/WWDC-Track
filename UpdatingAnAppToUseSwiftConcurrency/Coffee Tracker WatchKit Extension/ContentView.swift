@@ -31,15 +31,16 @@ struct ContentView: View {
                 case .active:
                     logger.debug("Scene became active.")
                     
-                    // Make sure the app has requested authorization.
-                    let model = CoffeeData.shared
-                    model.healthKitController.requestAuthorization { (success) in
+                    async {
+                        // Make sure the app has requested authorization.
+                        let model = CoffeeData.shared
+                        let success = await model.healthKitController.requestAuthorization()
                         
                         // Check for errors.
                         if !success { fatalError("*** Unable to authenticate HealthKit ***") }
                         
                         // Check for updates from HealthKit.
-                        model.healthKitController.loadNewDataFromHealthKit { _ in }
+                        await model.healthKitController.loadNewDataFromHealthKit()
                     }
                     
                 case .background:
